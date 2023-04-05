@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import SignupPage from './SignupPage';
+import SigninPage from './SigninPage';
+import ForgotPage from './ForgotPage';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('signin');
+
+  const handleSignupClick = () => {
+    setCurrentPage('signup');
+  };
+
+  const handleSigninClick = () => {
+    setCurrentPage('signin');
+  };
+
+  const handleForgotClick = () => {
+    setCurrentPage('forgot');
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {currentPage === 'signup' && <SignupPage onSignin={handleSigninClick} />}
+      {currentPage === 'signin' && <SigninPage onSignup={handleSignupClick} onForgot={handleForgotClick} />}
+      {currentPage === 'forgot' && <ForgotPage onSignin={handleSigninClick} />}
     </div>
   );
 }

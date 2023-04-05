@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,216 @@
   to {
     transform: rotate(360deg);
   }
+} */
+/* App.css */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f5f5f5;
 }
+
+  
+  /* SignupPage.css */
+  
+  .signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  }
+  
+  
+  .signup-form {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  }
+  
+  .signup-form h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  .signup-form label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  }
+  
+  .signup-form input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid gray;
+  margin-bottom: 1rem;
+  }
+  
+  .signup-form button {
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  }
+  
+  .signup-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .signup-links button {
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: white;
+  color: #0077cc;
+  margin: 0 1rem;
+  }
+  
+  /* SigninPage.css */
+  
+  .signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  }
+  
+  .signin-image-container {
+  flex-basis: 50%;
+  }
+  
+  .signin-image {
+  width: 100%;
+  }
+  
+  .signin-form {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  }
+  
+  .signin-form h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    }
+    
+    .signin-form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .signin-form input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    }
+    
+    .signin-form button {
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #0077cc;
+    color: white;
+    }
+    
+    .signin-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .signin-links button {
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: white;
+    color: #0077cc;
+    margin: 0 1rem;
+    }
+    
+    /* ForgotPage.css */
+    
+    .forgot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    }
+    
+    .forgot-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    }
+    
+    .forgot-form h1 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      font-family: 'Roboto', sans-serif;
+      color: #333;
+    }
+    
+    .forgot-form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    }
+    
+    .forgot-form input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    margin-bottom: 1rem;
+    }
+    
+    .forgot-form button {
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #0077cc;
+    color: white;
+    }
+    
+    .forgot-links {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .forgot-links button {
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: white;
+    color: #0077cc;
+    margin: 0 1rem;
+    }
+    
