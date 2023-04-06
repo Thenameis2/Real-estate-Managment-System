@@ -64,6 +64,7 @@
 import React from "react";
 import './App.css';//import the CSS file with styles
 import house from './house.jpeg'; // Import the image file
+// import { auth } from "./firebase";
 
 
 const SignIn = ({ onPageChange }) => {
